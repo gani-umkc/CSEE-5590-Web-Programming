@@ -1,0 +1,21 @@
+* {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-color: yellow;
+  min-height: 100vh;
+ height: auto;
+ margin: 0;
+}
+
+@media screen and (max-width: 730px) {
+  .github-banner {
+    display: none;
+  }
+}
